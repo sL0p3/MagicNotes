@@ -1,5 +1,5 @@
 # MagicNotes
-A Notes Taking Website using JavaScript
+A Notes Taking Website using JavaScript .
 
 
 Link to website : https://sl0p3.github.io/MagicNotes/index.html
