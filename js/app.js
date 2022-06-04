@@ -38,6 +38,7 @@ function showNotes() {
                 <h5 class="card-title">${index+1}. ${element.title}</h5>
                 <p class="card-text">${element.text}</p>
                 <a id ="${index}" onclick ="deleteNote(this.id)" class="btn btn-primary">Delete Note</a>
+                <button type="button" class="btn btn-link impButton" style = "text-decoration:none;"><span style="font-size:200%;">&#9734;</span></button>
             </div>
         </div>`;
   });
@@ -76,3 +77,29 @@ search.addEventListener("input", function () {
     }
   });
 });
+
+// function impBtnClick(){
+//   let impBtn= document.getElementsByClassName("impButton");
+//   console.log(impBtn)
+//   Array.from(impBtn).forEach(function(element){
+//     let span = element.getElementsByTagName('span')[0].innerHTML;
+//     console.log(span)
+//     if (span.innerHTML === "☆"){
+//       span.innerHTML = "★"
+//     }else{
+//       span.innerHTML = "☆"
+//     }
+//   })
+  // let imp = localStorage.getItem("imp");
+  // if (imp == null){
+  //   impArray = [];
+  // }else{
+  //   impArray = JSON.parse(imp)
+  // }
+  // console.log(impBtn.innerHTML);
+  // if (impBtn.innerHTML == <span style="font-size:200%;">&#9734;</span>){
+  //   impBtn.innerHTML = `<span style="font-size:200%;">&#9733;</span>`;
+  // }else{
+  //   impBtn.innerHTML = `<span style="font-size:200%;">&#9733;</span>`
+  // }
+// }
