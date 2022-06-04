@@ -78,7 +78,9 @@ search.addEventListener("input", function () {
   });
 });
 
-function impBtnClick(){
+// function impBtnClick(){
+    // html = "";
+    
   // let impBtn= document.getElementsByClassName("impButton");
 //   console.log(impBtn)
 //   Array.from(impBtn).forEach(function(element){
@@ -102,4 +104,4 @@ function impBtnClick(){
   // }else{
   //   impBtn.innerHTML = `<span style="font-size:200%;">&#9733;</span>`
   // }
-}
+// }
